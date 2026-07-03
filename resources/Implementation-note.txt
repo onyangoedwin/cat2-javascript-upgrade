@@ -1,0 +1,86 @@
+Implementation IMPLEMENTATION NOTES
+Project Title: Jakalare Enterprises Ltd Electronics Website
+
+Student: ______________________
+Admission Number: ______________________
+Unit: Web Application Development CAT 2
+
+======================================================
+PROJECT OVERVIEW
+======================================================
+
+This project is a responsive website developed for Jakalare Enterprises Ltd, an online electronics business. The project was built using HTML, CSS and JavaScript. The website provides information about the company, products sold, shipping services, warranty information and contact details.
+
+The Midterm project served as the foundation, while JavaScript was implemented during CAT 2 to improve interactivity.
+
+======================================================
+TECHNOLOGIES USED
+======================================================
+
+• HTML5
+- Used to create the structure of the webpage.
+- Created sections such as Header, Navigation, About, Products, Shipping, Warranty, Contact and Footer.
+
+• CSS3
+- Used to style the webpage.
+- Implemented Flexbox and Grid layouts.
+- Added hover effects.
+- Created responsive layouts for smaller screens.
+- Designed product cards and wishlist section.
+
+• JavaScript
+JavaScript was used to introduce interactivity into the website.
+
+The following features were implemented:
+
+1. Dynamic Product Display
+Products are stored inside an array and displayed automatically using JavaScript.
+
+2. Wishlist
+Users can type the name of a product and add it to the wishlist.
+
+3. Remove Button
+Each wishlist item has a Remove button that deletes the selected item.
+
+4. Contact Form Validation
+The contact form checks whether the user has entered a name before submitting.
+
+5. Success Message
+A confirmation message is displayed after successful submission.
+
+6. Banner Interaction
+The website banner can be clicked to display or hide a welcome message.
+
+7. Local Storage
+The website stores simple data using Local Storage.
+
+======================================================
+CHALLENGES ENCOUNTERED
+======================================================
+
+• Incorrect image paths caused images not to display.
+• Linking JavaScript correctly to HTML.
+• Creating the correct folder structure.
+• Connecting the project to GitHub repositories.
+• Ensuring JavaScript interacted correctly with HTML elements.
+
+======================================================
+LESSONS LEARNED
+======================================================
+
+This project improved my understanding of:
+
+• DOM Manipulation
+• Event Handling
+• Arrays
+• Loops
+• Functions
+• Form Validation
+• Local Storage
+• Responsive Web Design
+
+======================================================
+CONCLUSION
+======================================================
+
+The website successfully combines HTML, CSS and JavaScript to produce a responsive and interactive electronics store website. The JavaScript implementation greatly improved the user experience by making the website dynamic rather than static.

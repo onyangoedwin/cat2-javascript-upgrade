@@ -1,7 +1,29 @@
-During my interview with Wilson Onyango, the owner of Kalare Enterprises, I learned about his growing online electronics business. The company specializes in selling a variety of electronic products, including laptops, smartphones, gaming accessories, and other modern technology devices.
 
-Wilson explained that his main customers are households and families looking for reliable electronics, students who need devices for learning, gamers interested in high-performance accessories, and technology enthusiasts who enjoy keeping up with the latest gadgets.
+Conversation   
+PROJECT CONVERSATION
 
-He expressed the need for a simple, attractive, and professional website that would help customers easily view available products and make informed purchasing decisions. The website should clearly display product names, brands, prices, warranty details, shipping and delivery information, and contact details. Wilson also wanted customers to be able to quickly reach him for inquiries, orders, and after-sales support.
+The development of this project began by carrying forward my Midterm practical website into the CAT 2 repository.
 
-The overall goal of the website is to increase the business's online presence, improve customer engagement, and make it easier for people across Kenya to access quality electronic products from Kalare Enterprises.
+Initially, the website only contained HTML and CSS. It displayed company information, products, shipping details, warranty information and contacts.
+
+After setting up the CAT 2 project, JavaScript functionality was added to make the website interactive.
+
+The products were converted into JavaScript objects and displayed dynamically.
+
+A wishlist feature was introduced, allowing users to add products they would like to purchase. Each item added to the wishlist could also be removed.
+
+A contact form was implemented to improve communication between customers and the business. JavaScript validates the form and displays a success message whenever a user enters their name correctly.
+
+An interactive banner was also implemented. Clicking the banner displays or hides a welcome caption.
+
+Throughout development, several challenges were encountered including:
+
+- Incorrect file paths
+- GitHub repository setup
+- JavaScript linking
+- Image loading issues
+- Responsive layout adjustments
+
+These challenges were solved through testing, debugging and reorganizing the project structure.
+
+Overall, the project demonstrates practical application of HTML, CSS and JavaScript in building an interactive and responsive business website.
