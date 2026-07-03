@@ -67,3 +67,45 @@ addItemBtn.addEventListener("click", function () {
 
     wishlistInput.value = "";
 });
+const form = document.getElementById("contact-form");
+const feedback = document.getElementById("feedback");
+
+form.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    const name = document.getElementById("customerName").value;
+    const email = document.getElementById("customerEmail").value;
+
+    if(name==="" || email===""){
+
+        feedback.textContent="Please fill all fields.";
+
+        feedback.style.color="red";
+
+    }
+
+    else{
+
+        feedback.textContent="Thank you! We will contact you soon.";
+
+        feedback.style.color="green";
+
+        form.reset();
+
+    }
+
+});
+const nameInput = document.getElementById("customerName");
+
+nameInput.value =
+localStorage.getItem("customerName") || "";
+
+nameInput.addEventListener("input",()=>{
+
+localStorage.setItem(
+"customerName",
+nameInput.value
+);
+
+});
